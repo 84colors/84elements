@@ -1,0 +1,5 @@
+<!--🤙 JS: Slater.app/3314-->
+<script>let v = "1.0"; document.addEventListener("DOMContentLoaded", function () { function load84elements(e) { let t = document.createElement("script"); t.setAttribute("src", e), t.setAttribute("type", "module"), document.body.appendChild(t), t.addEventListener("load", () => { console.log("Slater loaded 84elements (Slater.app/3314) 🤙") }), t.addEventListener("error", e => { console.log("Error loading file", e) }) } let src = window.location.host.includes("webflow.io") ? "http://127.0.0.1:5500/test.js" : "http://127.0.0.1:5500/test.js?v=" + v; load84elements(src); })</script>
+
+<script src="http://127.0.0.1:5500/test.js"></script> <!-- tries to load from local host -->
+<script> if (typeof islocal === 'undefined') { let script = document.createElement('script') script.type = 'text/javascript' script.src = 'https://84colors.github.io/dev/dist/app.js'; document.head.appendChild(script) } //checks if the parceled variable from app.js is undefined - meaning local host isn't up and running //if not loads from the github pages </script>
